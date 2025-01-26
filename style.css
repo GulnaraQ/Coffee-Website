@@ -6,12 +6,12 @@
   text-decoration: none;
 }
 @font-face {
-  font-family: Poppins-Regular;
+  font-family: Poppins-regular;
   src: url(./Poppins/Poppins-Regular.ttf);
 }
 html,
 body {
-  font-family: Poppins-Regular;
+  font-family: Poppins-regular;
 }
 
 .container {
@@ -29,17 +29,12 @@ body {
 }
 .navbar-logo {
   line-height: 21px;
-  position: relative;
-}
-.navbar-logo img {
 }
 .navbar-logo p {
   font-size: 14px;
   text-align: center;
   font-weight: 600;
-  position: absolute;
-  bottom: 0;
-  left: 20px;
+  margin: -20px;
 }
 .navbar-links {
   padding-top: 30px;
@@ -58,3 +53,71 @@ body {
   border-radius: 5px;
 }
 /* navbar end */
+
+.banner-info {
+  margin-top: 20px;
+  width: 45%;
+  padding: 110px 0;
+}
+.banner-info-title {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 400;
+}
+.banner-info-description {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 10px 0 25px;
+}
+.banner-info-btn {
+  position: relative;
+  z-index: 1;
+}
+.banner-info a {
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white;
+  display: inline-block;
+  font-weight: 600;
+}
+.banner-info img {
+  position: absolute;
+  z-index: 0;
+}
+.coffeeBean1 {
+  bottom: 7px;
+  left: 111px;
+}
+.coffeeBean2 {
+  left: -45px;
+  top: 10px;
+}
+
+.banner-description {
+  margin-top: 230px;
+  padding: 30px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  position: relative;
+}
+.banner-description-left {
+  background-color: #e6e7eb;
+  color: black;
+  width: 32%;
+  padding: 70px 0;
+}
+.banner-description-right {
+  width: 39%;
+  color: white;
+}
+.banner-description img {
+  position: absolute;
+  bottom: -50px;
+  right: 10px;
+}
