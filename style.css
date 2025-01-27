@@ -89,6 +89,11 @@ body {
   color: white;
   display: inline-block;
   font-weight: 600;
+  transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.banner-info a:hover {
+  color: white;
+  background-color: #512615;
 }
 .banner-info img {
   position: absolute;
@@ -340,6 +345,12 @@ body {
 }
 .products-box-img img {
   width: 100%;
+  transition: 1s ease;
+}
+.products-box-img img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .section4-link {
   text-align: center;
@@ -354,5 +365,57 @@ body {
   font-family: Poppins-regular;
   padding: 10px 30px;
   border-radius: 8px;
+  transition: 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
+.section4-link a:hover {
+  color: white;
+  background-color: #512615;
+}
+
 /* section4 end */
+
+.section5 {
+  padding: 70px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section5-box {
+  width: 48%;
+  text-align: center;
+  background-color: #512615;
+  border-radius: 19px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.section5-box p {
+  color: white;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 500;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  font-family: Poppins-regular;
+}
+.section5-btn {
+  text-align: center;
+  width: 100%;
+  margin-top: 70px;
+}
+.section5-btn a {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Poppins-regular;
+  color: white;
+  background-color: #1e1e1e;
+  padding: 10px 40px;
+  border-radius: 8px;
+  transition: 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+.section5-btn a:hover {
+  color: white;
+  background-color: #512615;
+}
+/* section5 end */
