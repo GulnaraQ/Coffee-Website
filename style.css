@@ -480,3 +480,49 @@ body {
   width: 200px;
 }
 /* section6 form end */
+
+.section7 {
+  background: url(./images/background3.png) no-repeat center;
+  background-size: cover;
+  height: 810px;
+  padding: 70px 0;
+  font-family: Poppins-regular;
+}
+.section7-title {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  line-height: 74px;
+  font-size: 64px;
+  width: 60%;
+  margin: 50px auto;
+}
+.section7-form {
+  width: 80%;
+  margin: 80px auto;
+  background-color: #000000;
+  border-radius: 17px;
+  border: 1px solid black;
+}
+.section7-form form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section7-form input {
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 17px;
+}
+.section7-form .email {
+  background-color: #000000;
+  width: 50%;
+}
+.section7-form .submit {
+  background-color: #512615;
+  width: 40%;
+}
+/* section7 end */
